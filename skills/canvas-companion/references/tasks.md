@@ -4,7 +4,7 @@ Use the current user's timezone, course selection and requested time range. If e
 
 ## Upcoming work
 
-Read assignments/planner items and the current user's submission status for the selected scope. Check pagination and include graded discussions/quizzes when exposed. Show course, assignment, effective due time including timezone, status and source. Missing due date means “not specified”, not “not due”. An inaccessible course or failed request means the list is incomplete. Do not inspect quiz questions or provide exam answers.
+Read assignments/planner items and the current user's submission status for the selected scope. Check pagination and include graded discussions/quizzes when exposed. Show course, assignment, effective due time including timezone, status and source. Missing due date means “not specified”, not “not due”. An inaccessible course or failed request means the list is incomplete. For quiz content and attempts, follow the quiz assistance workflow below.
 
 Current effective assignment/override data should inform the user's deadline; compare contrary syllabus prose or extension notices rather than silently choosing. Keep due time, availability closing time and suggested work time separate. Do not assume a late-submission window is an extension.
 
@@ -38,3 +38,23 @@ Use verified requirements plus the student's available time. Separate fixed dead
 ## Minimum answer standard
 
 Every result distinguishes observed fact, advice and unknowns. Attach original links next to important statements. Keep private details out of public examples. Finish when the user has the requested actionable result; do not retrieve every course or every grade by default.
+
+## Prepare a useful deliverable
+
+Read the brief, rubric, relevant course materials and applicable AI rules first. Ask for the student's perspective only when needed for personal reflection; do not invent it. Produce the requested outline, explanation, permitted draft, revision, presentation or document with source citations and a truthful assistance record. Check length, format and criteria against the brief. Render/preview formatted files when tools allow. Keep final outputs separate from scratch drafts, with an unambiguous final filename. Do not label unsupported claims as established facts.
+
+## Submit explicitly requested work
+
+1. Resolve the exact course, assignment and current attempt. Check submission type, availability, allowed file types, effective deadline and any resubmission effect.
+2. Inspect the final artifact, not just its filename. Show the target and artifact in a short progress message. Continue under an already explicit submission instruction when host rules permit; do not repeat permission requests without a concrete reason. If the instruction only asks for preparation/status, obtain authorization before submission.
+3. Use the connector's actual submission capability or supported browser. For API file submissions, consult official Submissions and File Uploads documentation: completing an upload and submitting the returned file ID are separate steps. Do not guess routes or send Canvas credentials to a returned external upload host; follow its supplied upload parameters.
+4. Handle any personal originality, AI-use or terms attestation truthfully under host authorization rules. If user action is required, preserve the prepared state and identify the exact unfinished step.
+5. Verify submitted state, receipt time/attempt and correct attached file where visible. If the response is uncertain, inspect current status before retrying: avoid duplicate submissions. Return the source/receipt or clearly state that submission remains unconfirmed.
+
+Source: [Canvas Submissions API](https://developerdocs.instructure.com/services/canvas/resources/submissions).
+
+## Quiz and practice assistance
+
+Read the visible assessment instructions without starting an attempt. Determine whether it is practice, graded, timed, and what AI assistance is permitted. For practice or explicitly AI-permitted questions, explain concepts, work through questions, check reasoning and help enter/submit answers when requested and authorized. For an assessment that forbids such assistance, offer relevant study explanations or separate practice instead. If rules are unavailable, ask for the relevant rule before taking a graded attempt on the user's behalf; do not assume either permission or a blanket ban.
+
+Opening an attempt may start a timer or consume an attempt. Require explicit intent to start, and a separate basis for submitting answers; follow existing user authorization without inventing blanket authority. Check supported tool/browser capabilities: New Quizzes or external tools may not be available through a Classic Quizzes connector. Do not bypass access codes, proctoring, locks or hidden-answer restrictions. Report what was actually saved/submitted and verify the result, avoiding a second attempt after an uncertain response.

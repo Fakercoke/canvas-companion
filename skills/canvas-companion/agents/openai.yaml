@@ -1,4 +1,4 @@
 interface:
   display_name: "Canvas Companion"
-  short_description: "Connect to Canvas and understand coursework with sources"
-  default_prompt: "Use $canvas-companion to check my available Canvas connection and explain one assignment with source links."
+  short_description: "Guide Canvas setup, course reading and submissions"
+  default_prompt: "Use $canvas-companion to guide me through connecting my Canvas, verify access, and help me work with my courses."

@@ -18,7 +18,7 @@ Use [clients.md](clients.md) for the matching client. User completes authorizati
 
 Canvas's OAuth documentation distinguishes manual tokens for testing from multi-user applications, for which it requires OAuth. A public project asking every student to supply a manually generated token should not be assumed acceptable merely because a community repo does it. A real multi-user connector needs an appropriate Canvas developer-key/OAuth arrangement and institutional permission. This pack does not implement or provide that service.
 
-An already configured personal integration may be useful, but determine that its use is authorized; do not present its existence as permission to redistribute access. For a developer's own testing, consult Canvas's official instructions and school rules rather than adapting that route into this pack's public onboarding.
+An already configured personal integration may be useful, but determine that its use is authorized; do not present its existence as permission to redistribute access. For a developer's own testing, use the concrete [key and personal API guide](keys.md); do not turn that conditional route into a multi-user token-collection service.
 
 Sources: [Canvas OAuth](https://developerdocs.instructure.com/services/canvas/oauth2/file.oauth), [API policy](https://www.instructure.com/policies/canvas-api-policy).
 
@@ -30,7 +30,7 @@ Only select this route when the current host actually exposes browser control an
 2. If login or MFA is needed, let the user complete it in the official page; resume from visible logged-in state.
 3. Open the chosen course and verify its name and term.
 4. Open Assignments and the requested assignment. Read the title, current due date, allowed file type and description.
-5. Inspect the visible rubric and AI rules if available; locate relevant reading links without bulk downloading the course.
+5. Follow the requested scope: inspect a rubric/reading for one assignment, or use the [course reading workflow](course-reading.md) for a whole course. Retrieve permitted content directly in batches.
 6. Return a concise answer with the current source links. A browser-only connection may not persist in later sessions; say so.
 
 Use only the host's supported browser operations. Do not extract cookies, replay hidden authenticated requests, or automate around login barriers. If reading is blocked, give the exact next user action or use permitted user-provided material.
