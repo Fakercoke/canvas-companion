@@ -1,0 +1,20 @@
+# Keep personal settings and data out of this public project.
+.env
+.env.*
+!.env.example
+*token*
+*secret*
+credentials*
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.codex/
+.cursor/
+.claude/
+.mcp.json
+private/
+downloads/
+*.docx
+*.pdf
+*.log
