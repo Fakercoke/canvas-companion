@@ -9,13 +9,15 @@ Enable a student to say “connect to my Canvas” without knowing MCP, API keys
 
 ## Connect first
 
-Inspect available tools and environment. Ask only for missing information: the school Canvas homepage and, if not observable, the AI client. Explain one concrete next step at a time. Do not make a beginner choose a technical transport or research setup alone.
+Inspect available tools and environment. If the school is unknown, ask simply which school the student attends; accept its name rather than requiring a URL. Search official school sources for its Canvas entry and verify the destination before login. If already provided, use the school name/link without asking again. Ask for the AI client only when tools cannot reveal the relevant capability. Explain one concrete next step at a time. Do not make a beginner choose a technical transport or research setup alone.
 
 Read [connection guide](references/connect.md); consult [keys and personal API testing](references/keys.md) for token questions. Reuse working tools. Otherwise guide an available authenticated browser or real supported connector; use [client setup](references/clients.md) when configuring one. Never invent an MCP endpoint. Inspect a community package's source/setup and permission model before recommending installation. If only a plain chat window is available, explain the specific missing capability.
 
 Let the user complete login/MFA and secret entry through secure interfaces, not chat. Explain personal testing tokens versus multi-user OAuth without treating either as universal school approval.
 
 Verify a course title and requested resource with links and retrieval time. Distinguish configuration saved, authenticated, course readable and resource readable. Missing connector features do not prove Canvas lacks the data. Use [troubleshooting](references/troubleshooting.md); after two materially different failures at a stage, identify the blocker and continue independent useful work.
+
+For first-time setup or “I do not know how”, use [beginner onboarding](references/onboarding.md). Move from explanation to an actual supported action; do not repeatedly send configuration instructions to a confused student.
 
 ## Read the requested scope directly
 
@@ -26,6 +28,8 @@ For whole-course/all-course requests, use [course reading](references/course-rea
 ## Produce, manage and submit work
 
 Use [task recipes](references/tasks.md) for deadlines, briefs, reading synthesis, study plans, output preparation, submission and quiz assistance. Follow actual course requirements and the student's ideas. Use an available document skill for formatted deliverables. Do not stop at a requirements summary when the user requests an allowed draft, revision, explanation or submission.
+
+For a substantial assignment, use [assignment workflow](references/assignment-workflow.md) to turn sources and requirements into a draft, rubric review and final deliverable. Maintain a small actual-use log and use [AI declaration](references/ai-declaration.md) when acknowledgement is needed. These workflows support action, not just checklists.
 
 Inspect quiz instructions and distinguish practice from graded assessment; assist within the permitted AI-use scope. Starting a quiz can consume an attempt or timer: never start merely to inspect it. Do not impose a blanket quiz ban or infer permission to answer all assessments from account access.
 
