@@ -1,6 +1,6 @@
 ---
 name: canvas-companion
-description: Guide a beginner through connecting their AI agent to Canvas LMS, then read courses directly, organise work, assist with coursework and quizzes under course rules, and submit user-approved work with receipt checks. Use for Canvas setup and ongoing course assistance.
+description: Guide a beginner through connecting their AI agent to Canvas LMS, then support two core workflows — completing coursework under course rules and learning or revising from lectures, tutorials and readings. Read materials directly, organise deadlines, tutor through dialogue, and verify user-approved submissions. Use for Canvas setup, coursework, lecture summaries and exam revision.
 ---
 
 # Canvas Companion
@@ -10,6 +10,8 @@ Enable a student to say “connect to my Canvas” without knowing MCP, API keys
 ## Connect first
 
 Inspect available tools and environment. If the school is unknown, ask simply which school the student attends; accept its name rather than requiring a URL. Search official school sources for its Canvas entry and verify the destination before login. If already provided, use the school name/link without asking again. Ask for the AI client only when tools cannot reveal the relevant capability. Explain one concrete next step at a time. Do not make a beginner choose a technical transport or research setup alone.
+
+A connector limited to one course is not evidence that the account or skill is limited to that course. For broader requests, follow the connection guide to probe supported alternative access before reporting an overall limitation.
 
 Read [connection guide](references/connect.md); consult [keys and personal API testing](references/keys.md) for token questions. Reuse working tools. Otherwise guide an available authenticated browser or real supported connector; use [client setup](references/clients.md) when configuring one. Never invent an MCP endpoint. Inspect a community package's source/setup and permission model before recommending installation. If only a plain chat window is available, explain the specific missing capability.
 
@@ -25,7 +27,15 @@ Users may request one assignment, a whole course or all their courses. Honour th
 
 For whole-course/all-course requests, use [course reading](references/course-reading.md). Inventory available modules, pages, announcements, files, assignments, quiz metadata and reading links; follow pagination and read content in batches. Save coverage and sources outside this repository. Use available document readers instead of making students manually download and upload accessible files. A listing is not its contents; locked, unpublished, unsupported and separately authenticated resources remain unavailable.
 
+## Learn and revise from the course
+
+Assignment support and learning support are two core workflows sharing the same Canvas connection. For catching up on lectures, understanding a topic, tutorial practice, revision or finding past papers, use [learning and tutoring](references/learning.md). Do not require an assignment or turn every learning request into assignment preparation.
+
+Discover the student's courses instead of asking them to supply files already accessible. Map lectures, tutorials and readings, read the requested scope with coverage evidence, then deliver explanations or begin tutoring. A plan or file inventory alone does not fulfil a learning request. Honour summary-only requests without forcing a quiz.
+
 ## Produce, manage and submit work
+
+For due dates and outstanding work, read [deadline and status checks](references/deadlines.md), including cross-course coverage and submission evidence.
 
 Use [task recipes](references/tasks.md) for deadlines, briefs, reading synthesis, study plans, output preparation, submission and quiz assistance. Follow actual course requirements and the student's ideas. Use an available document skill for formatted deliverables. Do not stop at a requirements summary when the user requests an allowed draft, revision, explanation or submission.
 

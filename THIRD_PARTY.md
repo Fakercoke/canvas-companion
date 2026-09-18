@@ -21,3 +21,10 @@ Checked 2026-09-18; links can change. Configuration examples are limited referen
 - [Claude Code MCP](https://code.claude.com/docs/en/mcp)
 
 MCP tool names and client capabilities are not universal. The skill instructs the consuming Agent to inspect its actual tools and current documentation rather than copying an assumed API schema.
+
+## Learning workflow references
+
+Inspected 2026-09-18. These public skills informed the design of the learning workflow; their code and scripts are not bundled. The Canvas Companion instructions were written independently for this project.
+
+- [Course Note Organizer](https://github.com/Sylvia-huangz/Course-note-organizer/blob/main/SKILL.md): source-aware lecture notes and recording/transcript coverage.
+- [Anything to Course](https://github.com/lowwwbank/anything-to-course/blob/main/SKILL.md): objectives, practice and dialogue-based learning. This is a general study skill, not a Canvas connector.

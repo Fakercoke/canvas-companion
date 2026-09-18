@@ -6,7 +6,9 @@ This reference is for the Agent. Explain the selected route in ordinary language
 
 Inspect available tool descriptions and schemas. Prefer read-only course and assignment tools. If a selected tool needs a course ID, retrieve it from the user's link or a course list; do not guess. Where multiple courses have similar names, ask the student to choose using names and term labels.
 
-Run the minimal access check from SKILL.md. Reuse the connection if it works. No extra package is necessary. This is often the fastest path.
+Run the minimal access check from SKILL.md. Reuse the connection for the scope it supports. If the request exceeds that scope, inspect available browser capabilities and try the verified school site using an existing authorized session. A request to read other courses authorizes that read-only fallback; do not ask the user to choose a technical route or repeat the same authorization.
+
+Distinguish a connector scope restriction from an actual account/resource access denial. Never alter a course-specific tool to bypass its restrictions. Report an overall access limitation only after checking the available supported alternatives; describe what was tried and what remains unread. If login/MFA is required, hand that step to the user. No additional package is needed when the browser route works.
 
 ## 2. Institution-approved remote MCP or connector
 

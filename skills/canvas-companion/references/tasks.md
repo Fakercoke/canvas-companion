@@ -4,9 +4,7 @@ Use the current user's timezone, course selection and requested time range. If e
 
 ## Upcoming work
 
-Read assignments/planner items and the current user's submission status for the selected scope. Check pagination and include graded discussions/quizzes when exposed. Show course, assignment, effective due time including timezone, status and source. Missing due date means “not specified”, not “not due”. An inaccessible course or failed request means the list is incomplete. For quiz content and attempts, follow the quiz assistance workflow below.
-
-Current effective assignment/override data should inform the user's deadline; compare contrary syllabus prose or extension notices rather than silently choosing. Keep due time, availability closing time and suggested work time separate. Do not assume a late-submission window is an extension.
+Follow [deadline and status checks](deadlines.md) for cross-course coverage, effective dates and current-user/group submission evidence. Include graded discussions/quizzes when exposed, without starting quiz attempts.
 
 ## Assignment brief
 

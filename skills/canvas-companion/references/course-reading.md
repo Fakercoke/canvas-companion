@@ -16,6 +16,12 @@ Resolve course reading-list and library links using the user's permitted access;
 
 Work in manageable batches, saving an index and summaries with source locations so later turns can resume. Report counts by fully read, partly read, metadata-only, inaccessible and pending. Do not claim “all course information” while pending or unread items remain. Record changes by rechecking announcements/deadlines when freshness matters.
 
+## Long documents and recordings
+
+For a full-reading request, establish the page/section count or recording duration first. Track actually reviewed ranges separately from downloaded/extracted ranges. Process the entire requested scope in manageable batches, retaining source locations and unresolved gaps. An 80-page PDF with only pages 1–10 reviewed remains partial even when all text was extracted. If extraction truncates, continue from the last verified range; inspect image-only pages, tables and figures with appropriate visual tools rather than assuming text extraction captured them.
+
+Do not silently reduce a whole-document request to keyword hits or an abstract. If the user requests targeted reading, state the selected scope and avoid claiming full coverage. Report unread/unavailable ranges and their effect on the answer; continue independent useful work. For learning-specific lecture/transcript handling, follow [learning and tutoring](learning.md).
+
 ## Outputs
 
 Adapt to the request: course overview, week-by-week notes, concept explanations, source-linked reading synthesis, revision questions, assignment preparation or a cross-course workload plan. Preserve distinctions between required readings and optional research. A connection eliminates some manual transfers, not school access restrictions or AI context limits.
